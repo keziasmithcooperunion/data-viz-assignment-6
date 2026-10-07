@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
- 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internet Master Plan Data</title>
   </head>
   <body>
     <main>
-        <div id="visualization"></div> <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+        <div id="visualization"></div> 
     </main>
 
-        <script type="module">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    
+    <script type="module">
 
         const nyc =
             await d3.json("./internet-master-plan.geojson");
