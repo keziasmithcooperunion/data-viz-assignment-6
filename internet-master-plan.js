@@ -1,4 +1,4 @@
-const nyc = await d3.json("./internet-master-plan.json");
+const nyc = await d3.json("./internet-master-plan.geojson");
 
 const width = 975;
 const height = 800;
